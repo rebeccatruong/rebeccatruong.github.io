@@ -1,3 +1,44 @@
+img {
+	max-width: 40%;
+	max-height: 300px;
+}
+
 body {
-	background: blue;
+	font-family: Helvetica;
+}
+
+h1 {
+	margin: 0px;
+	text-shadow: 2px 2px #e6e6e6;
+	font-size: 6em;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color:white;
+	background-color: black;
+/*background-image: url("http://graphics8.nytimes.com/images/2012/03/14/business/britannica-decoder/britannica-decoder-blog480.jpg");
+*/}
+
+#popcorn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	width: 35%;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 40px;
+
+}
+
+.welcome {
+	background-color: red;
+	font-size: 2em;
+	text-align: center;
+	margin: 0px;
+	padding: 35px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	
+
 }
